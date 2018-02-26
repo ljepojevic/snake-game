@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Game</title>
+	<style type="text/css">
+		.board {
+			margin-left: calc(50% - 200px);
+		}
+
+		.length {
+			margin-left: calc(50% - 200px);
+			width: 400px;
+			text-align: center;
+			background: gold;
+			padding: 10px 0;
+			font-family: 'Calibri';
+		}
+
+		.speed {
+			margin-left: calc(50% - 200px);
+			width: 400px;
+			text-align: center;
+			background: #8A3232;
+			padding: 10px 0;
+			font-family: 'Calibri';
+			color: #fff;
+		}
+
+		.title {
+			color: #fff;
+			text-shadow: #999;
+			font-weight: 600;
+			width: 400px;
+			position: absolute;
+			top: 100px;
+			left: calc(50% - 200px);
+			text-align: center;
+			font-family: Courier New;
+			font-size: 22px;
+		}
+	</style>
+</head>
+<body>
+<div id="length" class="length"></div>
+<div id="speedometer" class="speed"></div>
+<div id="title" class='title'></div>
+<canvas id="gc" width=400 height=400 class="board"></canvas>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
